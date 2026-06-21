@@ -1,0 +1,29 @@
+<section class="timeline-section py-5">
+  <div class="container">
+    <h2 class="text-center mb-5 titulo-timeline" data-aos="fade-down">Nuestra Historia</h2>
+
+    <div class="row">
+      <!-- Sintaxis moderna de Angular 17+ para iterar -->
+      @for (recuerdo of recuerdos; track recuerdo.id; let i = $index) {
+
+        <!-- Alternamos columnas: izquierda y derecha -->
+        <div class="col-md-6 mb-4"
+             [class.offset-md-6]="i % 2 !== 0"
+             data-aos="fade-up"
+             [attr.data-aos-delay]="i * 100">
+
+          <div class="card timeline-card h-100 shadow-sm">
+            <img [src]="recuerdo.image" class="card-img-top" [alt]="recuerdo.titulo">
+
+            <div class="card-body">
+              <span class="fecha-badge">{{ recuerdo.fecha }}</span>
+              <h4 class="card-title mt-2">{{ recuerdo.titulo }}</h4>
+              <p class="card-text">{{ recuerdo.descripcion }}</p>
+            </div>
+          </div>
+
+        </div>
+      }
+    </div>
+  </div>
+</section>

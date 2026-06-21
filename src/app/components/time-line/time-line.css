@@ -1,0 +1,56 @@
+/* Heredamos los colores globales del Dark Mode */
+.timeline-section {
+  background-color: var(--color-dominante, #0F172A);
+  color: var(--color-texto, #F8FAFC);
+}
+
+.titulo-timeline {
+  font-family: var(--fuente-titulos, 'Montserrat', sans-serif);
+  color: var(--color-acento, #F59E0B);
+}
+
+/* Rediseño de la tarjeta de Bootstrap */
+.timeline-card {
+  background-color: var(--color-secundario, #1E293B);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+/* Efecto hover interactivo */
+.timeline-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--color-acento, #F59E0B);
+}
+
+/* Estilo para las imágenes y evitar que se deformen */
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+
+  border-bottom: 2px solid var(--color-acento, #F59E0B);
+}
+
+/* La insignia con la fecha */
+.fecha-badge {
+  display: inline-block;
+  background-color: rgba(245, 158, 11, 0.15);
+  color: var(--color-acento, #F59E0B);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  font-family: var(--fuente-cuerpo, 'Inter', sans-serif);
+}
+
+.card-title {
+  color: var(--color-texto, #F8FAFC);
+  font-family: var(--fuente-titulos, 'Montserrat', sans-serif);
+}
+
+.card-text {
+  font-family: var(--fuente-cuerpo, 'Inter', sans-serif);
+  color: #94A3B8;
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+h2,
+h5 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  font: text shadow 2px;
+  ;
+}
+
+section {
+  height: 100vh;
+
+}
+
+section div {
+  height: 100%;
+  background: url('/assets/images/20251003_115640.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}

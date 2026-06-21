@@ -1,0 +1,41 @@
+/* Contenedor principal de la barra */
+.navbar-padre {
+  background-color: #0d1117;
+  /* Mismo fondo oscuro de la terminal */
+  border-bottom: 1px solid #30363d;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  /* Asegura que la barra siempre esté por encima del resto */
+
+}
+
+/* Alineación con Flexbox */
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilos del Título/Logo */
+.nav-brand {
+  font-family: 'Fira Code', monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e6edf3;
+  cursor: pointer;
+}
+
+.icono-codigo {
+  color: #7ee787;
+  /* Verde consola */
+  margin-right: 8px;
+}
+
+.punto {
+  color: #58a6ff;
+  /* Azul consola */
+}

@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Montserrat:wght@700;800&family=Fira+Code:wght@400&display=swap');
+@import 'aos/dist/aos.css';
+
+:root {
+  --color-dominante: #0F172A;
+  --color-secundario: #1E293B;
+  --color-acento: #F59E0B;
+  --color-texto: #F8FAFC;
+  --fuente-titulos: 'Montserrat', sans-serif;
+  --fuente-cuerpo: 'Inter', sans-serif;
+  --fuente-codigo: 'Fira Code', monospace;
+}
+
+body {
+  background-color: var(--color-dominante);
+  color: var(--color-texto);
+  font-family: var(--fuente-cuerpo);
+
+}
+
+h1,
+h2,
+h3,
+h5,
+.navbar-brand {
+  font-family: var(--fuente-titulos);
+  font-weight: 800;
+  color: var(--color-acento);
+}
+
+.terminal-container {
+  font-family: var(--fuente-codigo);
+}
