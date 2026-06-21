@@ -14,18 +14,19 @@ export class TimeLineComponent {
       id: 1,
       fecha: 'Junio 2022',
       titulo: 'Nuestro viaje',
-      descripcion: 'Un recuerdo inolvidable de ese viaje. Gracias por acompañarme siempre.',
+      descripcion: 'Un recuerdo inolvidable de ese viaje a las Salinas, gracias por acompañarme siempre.',
       image: 'assets/images/20220604_123106.jpg'
     },
     {
       id: 2,
-      fecha: 'Octubre 2022',
-      descripcion: 'Un recuerdo inolvidable de ese viaje. Gracias por acompañarme siempre.',
+      titulo: 'Nuestro viaje',
+      fecha: 'Junio 2022',
       image: 'assets/images/20220604_123126.jpg'
     },
     {
       id: 3,
-      fecha: 'Octubre 2025',
+      titulo: 'Nuestro viaje',
+      fecha: 'junio 2022',
       descripcion: 'Festejando a lo grande.',
       image: 'assets/images/20220604_130928.jpg'
     },
@@ -54,14 +55,14 @@ export class TimeLineComponent {
       id: 7,
       fecha: 'Octubre 2025',
       titulo: 'Tus 50 Años',
-      descripcion: 'otra mas por si las dudas, aqui con su hijito el gaucho de pura cepa nomas igual que el padre',
+      descripcion: 'Otra foto con el padre mas, aqui con su hijito el gaucho de pura cepa nomas igual que el padre',
       image: 'assets/images/IMG-20251005-WA0027.jpg'
     },
     {
       id: 8,
       fecha: 'Octubre 2025',
       titulo: 'Tus 50 Años',
-      descripcion: 'nuestra familia juntos celebrando el dia mas especial de su vida ',
+      descripcion: 'Nuestra familia juntos celebrando el dia mas especial de su vida ',
       image: 'assets/images/IMG-20260617-WA0031.jpg'
     },
     {
@@ -80,7 +81,7 @@ export class TimeLineComponent {
     },
     {
       id: 11,
-      fecha: 'Enero 2022',
+      fecha: 'Octubre 2022',
       titulo: 'Abrida de regalos los 50 de la tia Pascuala',
       descripcion: 'Una fotito con mi ejemplo a seguir.',
       image: 'assets/images/20221030_181406.jpg'

@@ -101,3 +101,9 @@ button:disabled {
   color: #8b949e !important;
   cursor: not-allowed !important;
 }
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  font: text shadow 2px;
+}

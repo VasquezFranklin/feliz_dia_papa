@@ -26,7 +26,7 @@ export class App {
     // Inicializamos AOS una vez que el HTML ya está listo
     AOS.init({
       once: true,    // Ejecutar la animación solo la primera vez que hace scroll
-      offset: 100    // Desplazamiento (en px) para que se dispare antes de llegar al elemento
+      // Desplazamiento (en px) para que se dispare antes de llegar al elemento
     });
   }
 }

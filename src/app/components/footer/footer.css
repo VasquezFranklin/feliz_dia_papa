@@ -11,3 +11,8 @@ h5 {
   font-size: 20px;
   color: var(--color-acento);
 }
+
+img {
+  width: 260px;
+  height: 390px;
+}

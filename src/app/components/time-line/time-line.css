@@ -54,3 +54,9 @@
   font-family: var(--fuente-cuerpo, 'Inter', sans-serif);
   color: #94A3B8;
 }
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  font: text shadow 2px;
+}

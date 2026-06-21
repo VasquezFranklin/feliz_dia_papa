@@ -16,10 +16,9 @@ export class InteractiveComponent implements OnDestroy {
   private typingInterval: any;
 
   private frasesPersonales: string[] = [
-    '¿Te acordás del viaje que metimos en junio de 2022? Qué manera de pasarla bien, viejo.',
-    'Todavía me acuerdo de lo espectacular que estuvo tu fiesta de los 50 años en octubre. Un hito.',
-    'Gracias por bancarme el silencio y los mates eternos cada vez que me encierro a rendir para la facultad.',
-    'Nadie hace un asado ni arregla las cosas de la casa con la paciencia que tenés vos.',
+    '¿Te acordás del viaje que metimos en junio de 2022? Qué manera de pasarla bien no?,Pá .',
+    'Todavía me acuerdo de lo espectacular que estuvo tu fiesta de los 50 años en octubre, Fue unico ese dia.',
+    'Nadie hace asados tremendos ni arregla las cosas de la casa con la paciencia que usted tiene.',
     "Papá. Me has dado las mejores cosas de la vida: Tu tiempo, tus cuidados y tu amor. Estoy verdaderamente agradecido por tenerte en mi vida. Feliz Día del Padre.",
     "Papá, has sido una de mis mayores influencias en la vida. Me has enseñado muchas cosas, pero la más importante: que nunca debo dejar de aprender.",
     "Gracias por actuar como un niño cuando era un niño, actuar como un amigo cuando necesitaba un amigo, y actuar como un padre cuando lo necesitaba. Eres el mejor hombre que conozco. Feliz Día del Padre",
@@ -29,9 +28,9 @@ export class InteractiveComponent implements OnDestroy {
     "Nunca te olvido. Feliz día del padre para el padre más genial de la historia",
     "Cuanto más mayor me hago, más me doy cuenta de lo importante que es tener un padre como tú. Has proporcionado estabilidad en mi vida y el amor y la aceptación que necesitaba. Feliz Día del Padre",
     "Enviando amor y agradecimiento a través de las millas al mejor padre de todos",
-    "Deseando poder estar allí disfrutando de este junto a ti y pensando en todos nuestros divertidos Días del Padre en el campo (o playa).",
+    "Deseando poder estar allí disfrutando de este junto a ti y pensando en todos nuestros divertidos Días del Padre.",
     "Pienso en ti y espero que tengas un gran día, echo de menos estar contigo en el Día del Padre",
-    "¡Feliz Día del Padre! Ojalá pudiera estar allí ayudándote a cocinar en la parrilla",
+    "¡Feliz Día del Padre! Ojalá pudiera estar allí cocinando junto a usted y compartir juntos en familia",
     "Feliz Día del Padre desde la distancia para un padre increíble. Te echo de menos",
     "Muchas gracias por tu amor silencioso, por madrugar sin quejarte, por esperar despierto y por preocuparte incluso cuando no lo notaba.",
     "Los héroes reales no llevan capa; llevan cansancio, responsabilidad y un amor inmenso por su familia que nunca se rinde.",

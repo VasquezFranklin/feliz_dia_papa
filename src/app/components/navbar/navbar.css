@@ -7,7 +7,7 @@
   top: 0;
   z-index: 1000;
   /* Asegura que la barra siempre esté por encima del resto */
-
+  width: 100%;
 }
 
 /* Alineación con Flexbox */
@@ -38,4 +38,28 @@
 .punto {
   color: #58a6ff;
   /* Azul consola */
+}
+
+/* Lista de enlaces limpia */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  /* Espaciado perfecto entre cada enlace */
+  margin: 0;
+  padding: 0;
+}
+
+/* Botones de navegación */
+.nav-links a {
+  text-decoration: none;
+  color: #8b949e;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #e6edf3;
+  /* Se ilumina en blanco al pasar el mouse */
 }

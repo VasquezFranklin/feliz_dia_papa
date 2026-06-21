@@ -1,5 +1,7 @@
 <div class="container py-5" data-aos="zoom-in">
-  <h1 class="text-center mb-5">Terminal Interactiva:</h1>
+
+  <h5 class=" text-center mb-5"></h5>
+  <h2 class="text-center mb-5">Frases de un hijo a su padre</h2>
   <div class="terminal-window shadow-lg">
 
     <div class="terminal-header d-flex align-items-center px-3">
@@ -18,17 +20,21 @@
         <span class="path">sandro@padre-sistema:~$</span> ./generar_mensaje.sh
       </p>
 
-      <p class="comando-output mt-3" [ngClass]="{'texto-cargando': estadoTerminal === 'CONNECTING'}">
-        > {{ fraseMostrada }}<span class="cursor-titilante" *ngIf="estadoTerminal !== 'CONNECTING'">_</span>
+      <p class="comando-output mt-3"
+        [ngClass]="{'texto-cargando': estadoTerminal === 'CONNECTING'}">
+        > {{ fraseMostrada }}<span class="cursor-titilante"
+          *ngIf="estadoTerminal !== 'CONNECTING'">_</span>
       </p>
 
       <div class="mt-4 text-center">
-        <p class="comando-input pt-3 ">pulsa aqui para mostrar una frase personal </p>
+        <p class="comando-input pt-3 ">pulsa aqui para mostrar una frase
+          personal </p>
         <p class="comando-input fw-bold">↓</p>
         <button class="btn-terminal"
-                [disabled]="estadoTerminal === 'CONNECTING' || estadoTerminal === 'TYPING'"
-                (click)="ejecutarComando()">
-          {{ estadoTerminal === 'CONNECTING' ? '[ PROCESANDO INFRAESTRUCTURA... ]' : '[ COMPILAR RECUERDO ]' }}
+          [disabled]="estadoTerminal === 'CONNECTING' || estadoTerminal === 'TYPING'"
+          (click)="ejecutarComando()">
+          {{ estadoTerminal === 'CONNECTING' ?
+          '[ PROCESANDO FRASE... ]' : '[ MOSTRAR FRASE ]' }}
         </button>
       </div>
     </div>
